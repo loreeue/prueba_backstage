@@ -1,0 +1,42 @@
+site_name: "Prueba Documentación Node-RED en Backstage"
+
+nav:
+  - Home: index.md
+  - Crear Ticket: MHI-02-crear-ticket/crear-ticket.md
+  - Resolucion: MHI-04-resolucion/resolucion.md
+  - Mostrar Tickets: MHI-05-mostrar-tickets/mostrar-tickets-05.md
+  - Reclamación Callback: MHI-07-reclamacion-callback/reclamacion-callback.md
+  - Escalar: MHI-08-escalar/escalar.md
+  - Escalar Callback: MHI-09-escalar-callback/escalar-callback.md
+  - Cancelar: MHI-13-cancelar/cancelar.md
+  - Mostrar Tickets: MHI-15-mostrar-tickets/mostrar-ticket.md
+  - Comentar Ticket: MHI-23-comentar-ticket/comentar-ticket.md
+  - Relacionar Masivas: MHI-24-relacionar-masiva/relacionar-masivas.md
+  - Adjuntar imagen: MHI-25-adjuntar-imagenes/adjuntar-imagen.md
+  - Crear Ticket Plantilla: MHI-27-crear-ticket-plantilla/crear-ticket-plantilla.md
+  - Reclamar Con Plantilla: MHI-28-reclamar-con-plantilla/reclamacion-plantilla.md
+  - Reabrir Ticket: MHI-35-reabrir-ticket/reabrir-ticket.md
+  - Consultar Incidencias Críticas: MHI-36-consultar-incidencias-criticas/consultar-incidencias-criticas.md
+  - Abrir Ticket SSPR: MHI-37-abrir-ticket-sspr/abrir-ticket-sspr.md
+  - Consultar Datos Usuario: MHI-38-consultar-datos-usuario/consultar-datos-usuario.md
+  - Obtener Datos Usuario: MHI-42-obtener-datos-usuario/obtener-datos-usuario.md
+  - Gestión Proactiva: MHI-gestion-proactiva/gestion-proactivas.md
+
+theme:
+  name: material
+  logo: _assets/logo.png
+
+extra_css:
+  - _assets/extra.css
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - def_list
+  - attr_list
+  - footnotes
+
+plugins:
+  - techdocs-core
