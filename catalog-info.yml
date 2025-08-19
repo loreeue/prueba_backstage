@@ -3,10 +3,12 @@ kind: Component
 metadata:
   name: mi-pod
   description: Pod de ejemplo para Backstage
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   tags:
     - backend
     - pod
 spec:
-  type: service
+  type: documentation
   lifecycle: production
   owner: Desarrolladores
