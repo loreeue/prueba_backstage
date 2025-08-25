@@ -22,13 +22,6 @@ nav:
   - Obtener Datos Usuario: MHI-42-obtener-datos-usuario/obtener-datos-usuario.md
   - Gestión Proactiva: MHI-gestion-proactiva/gestion-proactivas.md
 
-theme:
-  name: material
-  logo: _assets/logo.png
-
-extra_css:
-  - _assets/extra.css
-
 markdown_extensions:
   - admonition
   - toc:
